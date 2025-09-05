@@ -1,0 +1,18 @@
+.card{
+  background:var(--card);
+  padding:16px;
+  border-radius:12px;
+  box-shadow:0 6px 18px rgba(15,23,42,0.06);
+}
+.top-actions{display:flex;gap:8px;align-items:center;margin-bottom:12px}
+.btn{
+  padding:8px 12px;border-radius:8px;border:none;background:var(--primary);color:white;cursor:pointer;
+}
+.btn.secondary{background:#9ca3af}
+table{width:100%;border-collapse:collapse}
+th,td{padding:10px;border-bottom:1px solid #eef2f7;text-align:left}
+tr:hover td{background:#f8fafc}
+.actions a{margin-right:8px;color:var(--primary);cursor:pointer}
+.form-row{display:flex;gap:8px;flex-wrap:wrap}
+.form-row .field{flex:1;min-width:160px}
+input,select{width:100%;padding:8px;border-radius:8px;border:1px solid #e5e7eb}
